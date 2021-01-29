@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>PRODUCTS PAGE | WILLSUN PHARMA</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" type="image/png" href="wio.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="willsun pharma,cipla,mediciene company">
+<link rel="shortcut icon" type="image/png" href="wio.png">
+<link rel="stylesheet" href="product.page.css.css">
+</head>
+<style>
+</style>
+<body>
+
+      <nav>
+      <img src="willsun-pharma.jpg"  height="80px"  id="nav-image" >
+    <a href="Contact.html"><h1 class="nav-heading">Home </h1></a>
+
+      <a href="ABOUT US { PAGE.html"><h1 class="nav-heading">Contact </h1></a>
+      <a href="PRODUCTS PAGE { WILLSUN PHARMA.html"><h1 class="nav-heading-1">Products</h1></a>
+      <a href="HOME PAGE { WILSUN PAHRMA.html"><h1 class="nav-heading">About us</h1></a>
+
+  </nav>
+
+  
+  <div class="nav-mobile-phones">
+    <img src="willsun-pharma.jpg" class="nav-image">
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>#42445A
+  <a href="About page.html">About us</a><hr id="nav-hr" color="grey">
+  <a href="Product page.html">Products</a><hr id="nav-hr" color="grey">
+  <a href="ContacT.html">Contact</a><hr id="nav-hr" color="grey">
+  <a href="Home page.html">Home</a><hr id="nav-hr" color="grey">
+</div>
+<span style="font-size:30px;cursor:pointer" class="mobilenav" onclick="openNav()">&#9776; </span>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+  </div> 
+
+
+
+
+  <!--Slider-->
+<div id="slider">  
+  <div class="slide" style="background:dodgerBlue;">
+    <img src="https://www.mdlinx.com/physiciansense/wp-content/uploads/2020/01/best-doctor.jpg" >
+  </div>
+  
+  <div class="slide" style="background:coral;">
+  </div>
+ 
+  <div class="slide" style="background:crimson;">
+  </div>
+  
+  <div class="slide" style="background: #6edf10;">
+  </div>
+  
+  <!--Controlling arrows-->
+  <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+</span>
+  <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+</span>
+</div>
+  <div id="dots-con">
+ <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+ </div>
+  <script>
+  var slides = document.querySelectorAll(".slide");
+var dots = document.querySelectorAll(".dot");
+var index = 0;
+
+
+function prevSlide(n){
+  index+=n;
+  console.log("prevSlide is called");
+  changeSlide();
+}
+
+function nextSlide(n){
+  index+=n;
+  changeSlide();
+}
+
+changeSlide();
+
+function changeSlide(){
+    
+  if(index>slides.length-1)
+    index=0;
+  
+  if(index<0)
+    index=slides.length-1;
+  
+  
+  
+    for(let i=0;i<slides.length;i++){
+      slides[i].style.display = "none";
+      
+      dots[i].classList.remove("active");
+      
+      
+    }
+    
+    slides[index].style.display = "block";
+    dots[index].classList.add("active");
+
+  
+
+}
+</script>
+
+<h2>Our products</h2>
+
+        <p>Our products have the hallmark of technology-based differentiation and cover the full range of dosage forms, including tablets, capsules, injectables, inhalers, ointments, creams and liquids. The therapeutic segments covered by our portfolio of over 2000 high quality molecules include psychiatry, anti-infectives, neurology, cardiology, orthopaedic, diabetology, gastroenterology, ophthalmology, nephrology, urology, dermatology, gynaecology, respiratory, oncology, dental and nutritionals. In several states, Willsun Pharma ranks among the leading companies in these therapy areas.
+
+
+        </p>
+
+<h3 id="nearimage">Made by the new technoligies</h3>
+
+<h5 class="Para-1"> We began producing new technoligies products as a vital input in the<br> manufacture of complex formulations and products to facilitate complete<br> vertical integration. Today, our list exceeds the best quality and who <br>recomended products which is used for captive purposes as well as marketed<br> to customers in over 10 - 20 state across the india.  </h5>
+<img src="https://images.unsplash.com/photo-1576091358783-a212ec293ff3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80" class="image">
+
+<h3 id="nearimage2">Made by the new technoligies</h3><hr id="near2" color="orange">
+<h5 class="Para-2"> We began producing new technoligies products as a vital input in the manufacture of complex formulations and products to facilitate complete vertical integration. Today, our list exceeds the best quality and who recomended products which is used for captive purposes as well as marketed to customers in over 10 - 20 state across the india. 
+
+<br> </h5>
+  <h5>Our  Products List</h5>
+    <div class="ser">
+    <form>
+</form>
+</div>
+<table>
+
+    <tr>
+<th>PRODUCT NAME</th>
+<th>MOLECULE</th>
+<th>USAGE</th>
+
+<th>FORM</th>
+</tr>
+<tr>
+    <td>WELLCOLD</td>
+    <td>Paracetamol500mg + Phenylepherine 10mg + CPM 2mg + Caffiene 30mg </td>
+    <td> Reduce Common cold & fever, Cough, Allergic sytoms of nose or throat, body pain </td>
+    <td>Tablet</td>
+
+</tr>
+<tr>
+  <td>WELLFLOX OZ</td>
+  <td>Ofloxacin 200mg + Ornidazole 500mg</td>
+  <td>Diarrhea & dysentery, Gynecological infections, Oro-dental infections</td>
+  <td>Tablet</td>
+
+</tr>
+<tr>
+  <td>WELLPAN DSR</td>
+  <td>Rabeprazole 20mg Domperidone 30mg </td>
+  <td>Gerd, Post operative naisea & vomiting, Gastric / Duodenal ulcers, Erosive gastritis</td>
+<td>Capsule</td>
+</tr>
+<tr>
+  <td>WELLTHROX 500</td>
+  <td>Azithromycin 500mg</td>
+  <td>Typhoid, SSTI, Chronic bronchitis, Acute otitis media, Acute bacterial sinusitis.</td>
+  <td>Tablet</td>
+
+</tr>
+<tr>
+<td>WELLRAB-DSR</td>
+<td>Rabeprazole 20mg Domperidone 30mg </td>
+<td>Duodenal ulcer, GERD, Hyperacidity, Peptic ulcer, Heart burn, H. Pylorie infection</td>
+<td>Capsule</td>
+</tr>
+<tr>
+<td>ACPEE-S</td>
+<td>Aceclofenac 100mg Paracetamol 325mg. Serratiopeptidase 15mg</td>
+<td>  Combination is effective & well tolerated in reliefing OA flare-up pain. </td>
+<td>Tablet</td>
+</tr>
+</table>
+
+
+<!--Here our's footer start-->
+
+  <footer class="footer">
+     <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Quick links</h4>
+          <ul>
+            <li><a href="About page.html">About us</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Product page.html">Product</a></li>
+            <li><a href="HOME PAGE.html">Home </a></li>
+          </ul><br>
+         <h4>Copyright ©2021 Willsun pharma</h4>
+
+        </div>
+        
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+     </div>
+  </footer>
+
+
+
+</body>
+</html>
